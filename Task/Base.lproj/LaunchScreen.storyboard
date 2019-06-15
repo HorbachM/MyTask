@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2019 Horbach. All rights reserved." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yP8-bN-tgH">
+                                <rect key="frame" x="0.0" y="626" width="375" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="p2C-vJ-RlH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noun_check" highlightedImage="img_533582" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fo-tx-aam">
+                                <rect key="frame" x="-68.5" y="291" width="512" height="105"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST TASK" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTA-ul-1fh">
+                                <rect key="frame" x="144" y="404" width="87" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9Yo-ZH-HQO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4fo-tx-aam" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="71q-D3-UUe"/>
+                            <constraint firstAttribute="bottom" secondItem="yP8-bN-tgH" secondAttribute="bottom" constant="20" symbolic="YES" id="LTt-I6-uRh"/>
+                            <constraint firstItem="rTA-ul-1fh" firstAttribute="top" secondItem="4fo-tx-aam" secondAttribute="bottom" constant="8" symbolic="YES" id="Qg1-hm-a2b"/>
+                            <constraint firstAttribute="bottom" secondItem="rTA-ul-1fh" secondAttribute="bottom" constant="242" id="T5w-ce-Qho"/>
+                            <constraint firstItem="yP8-bN-tgH" firstAttribute="centerX" secondItem="rTA-ul-1fh" secondAttribute="centerX" id="d4J-K4-WLb"/>
+                            <constraint firstItem="yP8-bN-tgH" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="eSi-Ha-jsw"/>
+                            <constraint firstItem="4fo-tx-aam" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lmk-In-pjm"/>
+                            <constraint firstItem="rTA-ul-1fh" firstAttribute="centerX" secondItem="4fo-tx-aam" secondAttribute="centerX" id="yzV-1D-z2j"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_533582" width="483" height="566"/>
+        <image name="noun_check" width="512" height="512"/>
+    </resources>
+</document>

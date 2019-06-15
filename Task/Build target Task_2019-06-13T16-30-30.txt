@@ -1,0 +1,105 @@
+
+Showing Recent Messages
+WriteAuxiliaryFile /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/DerivedSources/Entitlements.plist (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    write-file /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/DerivedSources/Entitlements.plist
+
+ProcessProductPackaging "" /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Task.app.xcent (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    
+
+Entitlements:
+
+{
+    "application-identifier" = "74GCKA833R.Horbach.Task";
+    "com.apple.developer.team-identifier" = 74GCKA833R;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "74GCKA833R.Horbach.Task"
+    );
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Task.app.xcent
+
+ProcessProductPackaging /Users/horbach/Library/MobileDevice/Provisioning\ Profiles/3f3fdeeb-59f7-49fe-8df2-5e1ca43d214e.mobileprovision /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/embedded.mobileprovision (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    builtin-productPackagingUtility /Users/horbach/Library/MobileDevice/Provisioning\ Profiles/3f3fdeeb-59f7-49fe-8df2-5e1ca43d214e.mobileprovision -o /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/embedded.mobileprovision
+
+CompileSwiftSources normal arm64 com.apple.xcode.tools.swift.compiler (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -incremental -module-name Task -Onone -enable-batch-mode -enforce-exclusivity=checked -DDEBUG -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -target arm64-apple-ios12.2 -g -module-cache-path /Users/horbach/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -embed-bitcode-marker -enable-testing -index-store-path /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Index/DataStore -swift-version 5 -I /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos -F /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos -c -j4 /Users/horbach/Desktop/Swift/Task/Task/PickerView.swift /Users/horbach/Desktop/Swift/Task/Task/SystemFont.swift /Users/horbach/Desktop/Swift/Task/Task/DownloadImage.swift /Users/horbach/Desktop/Swift/Task/Task/AppDelegate.swift /Users/horbach/Desktop/Swift/Task/Task/TrafficLights.swift -output-file-map /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Objects-normal/arm64/Task-OutputFileMap.json -parseable-output -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Objects-normal/arm64/Task.swiftmodule -Xcc -I/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Task-generated-files.hmap -Xcc -I/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Task-own-target-headers.hmap -Xcc -I/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Task-all-target-headers.hmap -Xcc -iquote -Xcc /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Task-project-headers.hmap -Xcc -I/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/include -Xcc -I/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/DerivedSources-normal/arm64 -Xcc -I/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/DerivedSources/arm64 -Xcc -I/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/DerivedSources -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Objects-normal/arm64/Task-Swift.h -working-directory /Users/horbach/Desktop/Swift/Task
+
+WriteAuxiliaryFile /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Objects-normal/arm64/Task.LinkFileList (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    write-file /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Objects-normal/arm64/Task.LinkFileList
+
+Ld /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/Task normal arm64 (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    export IPHONEOS_DEPLOYMENT_TARGET=12.2
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -L/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos -F/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos -filelist /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Objects-normal/arm64/Task.LinkFileList -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=12.2 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Objects-normal/arm64/Task_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -fembed-bitcode-marker -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -Xlinker -add_ast_path -Xlinker /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Objects-normal/arm64/Task.swiftmodule -Xlinker -dependency_info -Xlinker /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Objects-normal/arm64/Task_dependency_info.dat -o /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/Task
+
+CompileStoryboard /Users/horbach/Desktop/Swift/Task/Task/Base.lproj/LaunchScreen.storyboard (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module Task --output-partial-info-plist /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Base.lproj/LaunchScreen-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --minimum-deployment-target 12.2 --output-format human-readable-text --compilation-directory /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Base.lproj /Users/horbach/Desktop/Swift/Task/Task/Base.lproj/LaunchScreen.storyboard
+
+/* com.apple.ibtool.document.warnings */
+/Users/horbach/Desktop/Swift/Task/Task/Base.lproj/LaunchScreen.storyboard:4fo-tx-aam: warning: Highlighted property is only for display within Interface Builder (The value set for this property will not be present at runtime) [5]
+
+CompileStoryboard /Users/horbach/Desktop/Swift/Task/Task/Base.lproj/Main.storyboard (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module Task --output-partial-info-plist /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Base.lproj/Main-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --minimum-deployment-target 12.2 --output-format human-readable-text --compilation-directory /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Base.lproj /Users/horbach/Desktop/Swift/Task/Task/Base.lproj/Main.storyboard
+
+LinkStoryboards (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module Task --target-device iphone --minimum-deployment-target 12.2 --output-format human-readable-text --link /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Base.lproj/LaunchScreen.storyboardc /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Base.lproj/Main.storyboardc
+
+CompileAssetCatalog /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app /Users/horbach/Desktop/Swift/Task/Task/Assets.xcassets (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/assetcatalog_dependencies --output-partial-info-plist /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/assetcatalog_generated_info.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --filter-for-device-model iPhone7,2 --filter-for-device-os-version 12.2 --sticker-pack-identifier-prefix Horbach.Task.sticker-pack. --target-device iphone --minimum-deployment-target 12.2 --platform iphoneos --product-type com.apple.product-type.application --compile /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app /Users/horbach/Desktop/Swift/Task/Task/Assets.xcassets
+
+/* com.apple.actool.compilation-results */
+/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/AppIcon60x60@2x.png
+/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/Assets.car
+/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/assetcatalog_generated_info.plist
+
+
+ProcessInfoPlistFile /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/Info.plist /Users/horbach/Desktop/Swift/Task/Task/Info.plist (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    builtin-infoPlistUtility /Users/horbach/Desktop/Swift/Task/Task/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Base.lproj/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Base.lproj/Main-SBPartialInfo.plist -additionalcontentfile /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/Info.plist
+
+CopySwiftLibs /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk
+    builtin-swiftStdLibTool --copy --verbose --sign 47C993ACBC07A4B5457B34684ECAAB3CEC4AE59F --scan-executable /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/Task --scan-folder /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/Frameworks --scan-folder /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/PlugIns --platform iphoneos --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/Frameworks --strip-bitcode --resource-destination /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app --resource-library libswiftRemoteMirror.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+Requested Swift ABI version based on scanned binaries: unstable(7)
+libswiftRemoteMirror.dylib is up to date at /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app/libswiftRemoteMirror.dylib
+
+CodeSign /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    
+Signing Identity:     "iPhone Developer: gorbachkolya1994@gmail.com (M29SHQSW43)"
+Provisioning Profile: "iOS Team Provisioning Profile: Horbach.Task"
+                      (3f3fdeeb-59f7-49fe-8df2-5e1ca43d214e)
+
+    /usr/bin/codesign --force --sign 47C993ACBC07A4B5457B34684ECAAB3CEC4AE59F --entitlements /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Intermediates.noindex/Task.build/Debug-iphoneos/Task.build/Task.app.xcent --timestamp=none /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app
+
+/Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app: replacing existing signature
+
+Touch /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    /usr/bin/touch -c /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app
+
+Validate /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app (in target: Task)
+    cd /Users/horbach/Desktop/Swift/Task
+    builtin-validationUtility /Users/horbach/Library/Developer/Xcode/DerivedData/Task-apagjbqeconctkftdzlfyvfmjfmf/Build/Products/Debug-iphoneos/Task.app
+
