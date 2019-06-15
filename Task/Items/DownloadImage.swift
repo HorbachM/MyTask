@@ -29,15 +29,14 @@ class DownloadImage: UIViewController {
         let imageURL = URL(string: labelText.text!)
         var image: UIImage?
         if let url = imageURL {
-            //All network operations has to run on different thread(not on main thread).
+            
             
             DispatchQueue.global(qos: .userInitiated).async {
                 let imageData = NSData(contentsOf: url)
-                //All UI operations has to run on main thread.
+            
                 DispatchQueue.main.async {
                     if imageData != nil {
                         image = UIImage(data: imageData! as Data)
-                        //self.imageView.image.
                         self.imageView.image = image
                         self.imageView.contentMode = .scaleAspectFill
                         self.imageView.sizeToFit()

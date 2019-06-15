@@ -14,6 +14,7 @@ class SystemFont: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
+    
     var familyName = [String]()
     var fontName = [String]()
 
@@ -26,7 +27,7 @@ class SystemFont: UIViewController, UITableViewDelegate, UITableViewDataSource {
         runSustemFont()
         tableView.delegate = self
         tableView.dataSource = self
-       
+        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         fontName.sort(){ $0 < $1 }
@@ -38,13 +39,14 @@ class SystemFont: UIViewController, UITableViewDelegate, UITableViewDataSource {
         cell.textLabel?.font = UIFont(name:"TimesNewRomanPSMT",size:15) //name:"FontAwesome"
         cell.textLabel?.text = fontName[indexPath.row]
         textLabel.text = cell.textLabel?.text
-        
+        textLabel.font = UIFont(name: "Zapfino", size: 15)
 
          return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
+
         
     }
     
@@ -54,7 +56,7 @@ class SystemFont: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
         func runSustemFont() {
         for familyName in UIFont.familyNames{
-            self.familyName += [familyName]
+            self.familyName = [familyName]
             for fontName in UIFont.fontNames(forFamilyName: familyName){
                 self.fontName += [fontName]
                 for family in UIFont.familyNames.sorted() {
@@ -65,7 +67,6 @@ class SystemFont: UIViewController, UITableViewDelegate, UITableViewDataSource {
         }
     }
     
- 
 }
 
 
