@@ -17,6 +17,8 @@ class SystemFont: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var familyName = [String]()
     var fontName = [String]()
+    var fontNames = [String]()
+    
     
     override func viewDidLoad() {
         
@@ -35,10 +37,13 @@ class SystemFont: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.font = UIFont(name:"TimesNewRomanPSMT",size:15) //name:"FontAwesome"
-        cell.textLabel?.text = fontName[indexPath.row]
-        textLabel.text = cell.textLabel?.text
-        textLabel.font = UIFont(name: "Zapfino", size: 15)
+        let fontName = fontNames[indexPath.row]
+        cell.textLabel?.font = UIFont(name: fontName, size:15)
+        cell.textLabel?.text = fontName
+        //cell.textLabel?.font = UIFont(name:"TimesNewRomanPSMT",size:15) //name:"FontAwesome"
+        //cell.textLabel?.text = fontNames[indexPath.row]
+        textLabel.text = fontName
+        textLabel.font = UIFont(name: fontName , size: 17)
 
          return cell
     }
@@ -58,6 +63,7 @@ class SystemFont: UIViewController, UITableViewDelegate, UITableViewDataSource {
             self.familyName = [familyName]
             for fontName in UIFont.fontNames(forFamilyName: familyName){
                 self.fontName += [fontName]
+                self.fontNames += [fontName]
                 for family in UIFont.familyNames.sorted() {
                     var names = UIFont.fontNames(forFamilyName: family)
                     //print("Family:\(family) Font Names:\(names)")
