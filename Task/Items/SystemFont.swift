@@ -17,7 +17,6 @@ class SystemFont: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var familyName = [String]()
     var fontName = [String]()
-
     
     override func viewDidLoad() {
         
